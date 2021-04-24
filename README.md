@@ -56,7 +56,7 @@ Next i
 
 *Output and Code Performance*
 
---- insert a few sentences about the stock performance in 2017 and 2018 ---
+The analysis shows that the overall performance of the stock porfolio was far superior in 2017, in comparison to 2018.  Only one stock, TERP, had a negative return in 2018 while one-third (4 out of 12) delivered returns of 100% or more during the year.  In 2018, 83% of the stocks had negative returns while ENPH and RUN continued to outperform with returns of 81.92% and 83.95%, respectively.
 
 ![VBA_Challenge_AllStocks2017](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_AllStocks2017.png)    ![VBA_Challenge_AllStocks2018](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_AllStocks2018.png)
 
