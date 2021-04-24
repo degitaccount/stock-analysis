@@ -15,12 +15,12 @@ The purpose of this analysis is to gather total volume and percentage return for
     Dim tickerStartingPrices As Single
     Dim tickerEndingPrices As Single
     
-2a) Create a for loop to initialize the tickerVolumes to zero.
+2a) Create a for loop to initialize the tickerVolumes to zero
 
     Worksheets(yearValue).Activate
     totalVolumes = 0
                 
-2b) Loop over all the rows in the spreadsheet.
+2b) Loop over all the rows in the spreadsheet
     
     Worksheets(yearValue).Activate
     For k = 2 To RowCount
@@ -31,24 +31,22 @@ The purpose of this analysis is to gather total volume and percentage return for
     totalVolumes = totalVolumes + Cells(k, 8).Value
     End If
         
-3b) Check if the current row is the first row with the selected tickerIndex.
+3b) Check if the current row is the first row with the selected tickerIndex
         	
     If Cells(k, 1).Value = tickerIndex And Cells(k - 1, 1).Value <> tickerIndex Then
     tickerStartingPrices = Cells(k, 6).Value
     End If
 
-3c) check if the current row is the last row with the selected ticker, If the next row’s ticker doesn’t match, increase the tickerIndex. If  Then,'set ending price, End If
+3c) Check if the current row is the last row with the selected ticker, If the next row’s ticker doesn’t match, increase the tickerIndex
             
     If Cells(k, 1).Value = tickerIndex And Cells(k + 1, 1).Value <> tickerIndex Then
     tickerEndingPrices = Cells(k, 6).Value
     End If
 
-3d) Increase the tickerIndex.
+3d) Increase the tickerIndex and Loop through the arrays to output the Ticker, Total Daily Volume, and Return
       
-      Next k
+Next k
      
-4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
-    
     Worksheets("All Stocks Analysis").Activate
     Cells(4 + i, 1).Value = tickerIndex
     Cells(4 + i, 2).Value = totalVolumes
@@ -58,9 +56,11 @@ Next i
 
 *Output and Code Performance*
 
-![VBA_Challenge_AllStocks2017](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_AllStocks2017.png) ![VBA_Challenge_2017](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
+--- insert a few sentences about teh stock performance in 2017 and 2018 ---
 
-![VBA_Challenge_AllStocks2018](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_AllStocks2018.png) ![VBA_Challenge_2018](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
+![VBA_Challenge_AllStocks2017](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_AllStocks2017.png) ![VBA_Challenge_AllStocks2018](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_AllStocks2018.png)
+
+![VBA_Challenge_2017](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG) ![VBA_Challenge_2018](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
 
 ### **Summary**
 
