@@ -58,9 +58,9 @@ Next i
 
 *Output and Code Performance*
 
+![VBA_Challenge_AllStocks2017](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_AllStocks2017.png) ![VBA_Challenge_2017](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
 
-
-<insert images>
+![VBA_Challenge_AllStocks2018](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_AllStocks2018.png) ![VBA_Challenge_2018](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
 
 ### **Summary**
 
