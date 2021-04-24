@@ -64,16 +64,12 @@ Next i
 
 ### **Summary**
 
-Refactoring code has several *advantages*:
+Refactoring code has several *advantages* but also some *disadvantages*:
 
-* Can take less time than writing the code from scratch
-* Code will be better organized
-* Code could run more efficiently
-
-But also some *disadvantages*:
-
-* Poorly written code without comments may be difficult to follow
-* When using someone else’s code you may unknowingly download something malicious
-* It will not change the output code that is already operable and therefore may not always be necessary 
+| Advantages                                            | Disadvantages                                                                                         | 
+| :---------------------------------------------------- | :-----------------------------------------------------------------------------------------------------| 
+| Can take less time than writing the code from scratch | Poorly written code without comments may be difficult to follow                                       | 
+| Code will be better organized                         | When using someone else’s code you may unknowingly download something malicious                       |
+| Code could run more efficiently                       | It will not change the output code that is already operable and therefore may not always be necessary | 
 
 Refactoring the code for this project did not change the output, however it did improve the speed of the analysis.
