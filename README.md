@@ -58,7 +58,7 @@ The analysis shows that the overall performance of the stock porfolio was far su
 
 ![VBA_Challenge_AllStocks2017](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_AllStocks2017.png)    ![VBA_Challenge_AllStocks2018](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_AllStocks2018.png)
 
-The final refactored code was far more effecient as it cut the processing time roughly in half.
+The final refactored code was far more effecient as it cut the processing time by over 85%.
 
 _Original Runtimes_
 
