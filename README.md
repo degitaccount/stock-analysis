@@ -56,9 +56,11 @@ Next i
 
 *Output and Code Performance*
 
---- insert a few sentences about teh stock performance in 2017 and 2018 ---
+--- insert a few sentences about the stock performance in 2017 and 2018 ---
 
 ![VBA_Challenge_AllStocks2017](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_AllStocks2017.png)    ![VBA_Challenge_AllStocks2018](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_AllStocks2018.png)
+
+--- insert a few sentences about the code performance ---
 
 ![VBA_Challenge_2017](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)   ![VBA_Challenge_2018](https://github.com/degitaccount/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
 
